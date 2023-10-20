@@ -6,12 +6,15 @@
   box-sizing: border-box;
 }
 
+body{
+  background-color: black;
+}
 .css-vubbuv {
   user-select: none;
   width: 1em;
   height: 1em;
   display: inline-block;
-  fill: currentcolor;
+  fill: white;
   flex-shrink: 0;
   transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   font-size: 1.5rem;
@@ -24,7 +27,7 @@
 .header-logo > h1 {
   font-family: "Black Ops One", cursive;
   font-size: 30px;
-  color: rgb(0, 0, 0);
+  color: rgb(254, 245, 245);
 }
 
 .header-logo {
@@ -47,10 +50,12 @@
 
 .timer-container > * {
   font-size: 24px;
+  color: white;
 }
 
 .time-option > * {
   font-size: 24px;
+  color: white;
 }
 
 .time-option {
