@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   background-color: black;
 }
 .css-vubbuv {
@@ -63,22 +63,94 @@ body{
   gap: 5%;
 }
 
-.time-option > button{
+.time-option > button {
   background-color: transparent;
   border: none;
   cursor: pointer;
 }
 
-.text-container{
+.text-container {
   display: flex;
   justify-content: center;
   margin-top: 20px;
 }
 
-.text-container > .words{
+.text-container > .words {
   width: 50vw;
   font-size: 24px;
   color: blue;
   line-height: 3rem;
   font-family: monospace;
+}
+
+.Footer {
+  bottom: 20%;
+  left: 43%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 47px;
+  align-items: center;
+  justify-content: center;
+}
+
+#reset-btn {
+  width: 2em;
+  height: 2em;
+  fill: rgb(255, 246, 246);
+}
+
+#esc-btn {
+  background: rgb(255, 253, 253);
+  padding: 5px;
+  margin: 0.2rem;
+  color: black;
+  border: none;
+  width: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.esc span {
+  font-size: 20px;
+  color: white;
+}
+
+.words-length span {
+  font-size: 20px;
+  color: white;
+}
+
+.words-length button {
+  background: white;
+  padding: 5px;
+  margin: 0.2rem;
+  color: black;
+  border: none;
+  width: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.Social-theame {
+  width: 1000px;
+  position: fixed;
+  bottom: 6%;
+  left: 17%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social-media {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.theame-box {
+  border: 0.15px solid black;
+  padding: 5px;
 }
